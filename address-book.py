@@ -29,7 +29,7 @@ class ContactItem:
 
 
 def db_list_contacts():
-    print "\nContacts list:"
+    print "Contacts list:"
     for line in address_db.itervalues():
         print(line)
 
