@@ -105,7 +105,7 @@ check_for_birthday()
 
 while True:
     print_menu()
-    answer = raw_input("Choose the option: ")
+    answer = raw_input("Choose an option: ")
 
     try:
         actions[int(answer)][1]()
