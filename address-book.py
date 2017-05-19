@@ -110,4 +110,4 @@ while True:
     try:
         actions[int(answer)][1]()
     except (KeyError, ValueError):
-        print "Option you've entered is incorrect."
+        print "The option you've entered is incorrect."
